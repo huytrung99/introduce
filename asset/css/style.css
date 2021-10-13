@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Heebo', sans-serif;
+}
+/* Begin menu */
+header{
+    background-color: #fff;
+    width: 100%;
+    font-size: 20px; 
+    font-weight: 900;
+    position: fixed;
+    top: 0;
+}
+.menu{
+  display: flex;
+  justify-content: right;
+}
+
+.menu-mobile,
+.menu ul >li{
+    min-width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 30px 20px ;
+}
+.menu-mobile:hover,
+.menu ul >li:hover{
+   background-color: #FF6464;
+   color: #fff;
+}
+
+.feature{
+    padding: 30px 150px;
+}
+.feature__list{
+    display: flex;  
+    flex-direction: column;
+}
+.feature__item{
+    display: flex;  
+    padding: 30px 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.feature__item--content{
+   margin: 0 20px;
+}
+.feature__item--content >h1{
+    margin-bottom: 10px;
+}
+.feature__item--content >p{
+    margin-top: 20px;
+}
+.feature__item--content >span:last-child{
+    opacity: 0.7;
+}
+.feature__item--date{
+    background-color: #21243D;
+    color: #fff;
+    margin-right: 20px;
+    padding: 0 10px;
+    border-radius: 16px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 100px;
+}
+.social__list a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.social__list a:hover{
+    opacity: 0.8;
+}
+.copyright{
+    padding: 20px 0 60px 0;
+}
